@@ -2,16 +2,25 @@
 
 **文献计量分析团** · v1.0.1 · `team`
 
-> An offline five-agent team that analyzes local reference libraries — bibliometrics, co-occurrence networks, review skeletons — read-only.
+> Academic literature analysis for bibliometrics and review workflows
 
 
-Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection — expert teams, agents and skills for the WorkBuddy AI assistant platform.
+Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection.
 
 
 ## What it does
 
-- **academic-lit-analysis**
-- **review-skeleton**
+- **Data auditor** — validates the export before any number is computed
+- **Network mapper** — citation and co-occurrence structures out of your own library
+- **Trend analyst** — themes, trajectories and research-front shifts
+- **Review outliner** — turns the analysis into a review skeleton you can write against
+- Two dedicated skills: `academic-lit-analysis` (analysis engine) and `review-skeleton` (writing frame)
+
+## How it works
+
+- Audit first: the data auditor checks exports before computation, so numbers are trustworthy
+- Mapping and trend analysis run on the audited data, then feed the review outliner
+- The output is a writing frame, not just charts — designed to be written against
 
 ## Agent roster
 
@@ -23,16 +32,23 @@ Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) co
 | `review-outliner` | 综述骨架生成 - 构纲（成员） |
 | `trend-analyst` | 趋势分析师 · 鉴势 |
 
+## Skills
+
+`academic-lit-analysis` · `review-skeleton`
+
 ## Install
 
 1. Download the package zip from [Releases](https://github.com/Lucewalk/academic-literature-analysis-team/releases) or clone this repo;
 2. Unzip keeping the internal manifest structure intact;
 3. Import/register in WorkBuddy (custom connector → trust & enable).
 
+
 ## Version
 
-Current release: **v1.0.1** — see [CHANGELOG.md](CHANGELOG.md) if present, or the package manifest.
+Current release: **v1.0.1**. See the package manifest for details.
+
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
