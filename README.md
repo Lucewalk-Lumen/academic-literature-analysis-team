@@ -5,7 +5,7 @@
 > Academic literature analysis for bibliometrics and review workflows
 
 
-Part of the [Lucewalk Experts](https://github.com/Lucewalk/lucewalk-experts) collection.
+Part of the [Lucewalk Lumen](https://github.com/Lucewalk/lucewalk-lumen) collection.
 
 
 ## What it does
