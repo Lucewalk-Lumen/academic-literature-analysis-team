@@ -5,7 +5,7 @@
 > Academic literature analysis for bibliometrics and review workflows
 
 
-Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection.
+Part of the [Lucewalk Experts](https://github.com/Lucewalk/lucewalk-experts) collection.
 
 
 ## What it does
@@ -64,7 +64,7 @@ MIT — see [LICENSE](LICENSE).
 
 - 版本:v1.0.1 · 类型:team
 - 版本真源:包内 `.codebuddy-plugin/plugin.json` 的 `version` 字段
-- 所属合集:[WorkBuddy Experts 门户](https://github.com/Lucewalk/lucewalk-experts)(全部产品目录与品牌说明)
+- 所属合集:[Lucewalk Experts 门户](https://github.com/Lucewalk/lucewalk-experts)(全部产品目录与品牌说明)
 
 ## 安装
 
